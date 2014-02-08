@@ -1,0 +1,111 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:129), pid=7460, tid=7152
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version: 7.0_07-b11
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (23.3-b01 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000000021e000):  JavaThread "Unknown thread" [_thread_in_vm, id=7152, stack(0x00000000022d0000,0x00000000023d0000)]
+
+Stack: [0x00000000022d0000,0x00000000023d0000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x000000000021e000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=7152, stack(0x00000000022d0000,0x00000000023d0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.008 loading class 0x0000000002150110 done
+Event: 0.008 loading class 0x0000000002112f40 done
+Event: 0.008 loading class 0x0000000002112f10
+Event: 0.008 loading class 0x00000000021588a0
+Event: 0.008 loading class 0x00000000021588a0 done
+Event: 0.008 loading class 0x00000000021588e0
+Event: 0.008 loading class 0x00000000021588e0 done
+Event: 0.008 loading class 0x000000000b45d7a0
+Event: 0.008 loading class 0x000000000b45d7a0 done
+Event: 0.008 loading class 0x0000000002112f10 done
+
+
+Dynamic libraries:
+0x000000013f040000 - 0x000000013f074000 	C:\Program Files\Java\jdk1.7.0_07\bin\javaw.exe
+0x0000000076db0000 - 0x0000000076f59000 	C:\Windows\SYSTEM32\ntdll.dll
+0x0000000076b90000 - 0x0000000076caf000 	C:\Windows\system32\kernel32.dll
+0x000007fefced0000 - 0x000007fefcf3b000 	C:\Windows\system32\KERNELBASE.dll
+0x000007fefd150000 - 0x000007fefd22b000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fefdef0000 - 0x000007fefdf8f000 	C:\Windows\system32\msvcrt.dll
+0x000007fefded0000 - 0x000007fefdeef000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007fefdc60000 - 0x000007fefdd8d000 	C:\Windows\system32\RPCRT4.dll
+0x0000000076cb0000 - 0x0000000076daa000 	C:\Windows\system32\USER32.dll
+0x000007fefcf90000 - 0x000007fefcff7000 	C:\Windows\system32\GDI32.dll
+0x000007feff090000 - 0x000007feff09e000 	C:\Windows\system32\LPK.dll
+0x000007fefd000000 - 0x000007fefd0c9000 	C:\Windows\system32\USP10.dll
+0x000007fefb350000 - 0x000007fefb544000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac\COMCTL32.dll
+0x000007fefd0d0000 - 0x000007fefd141000 	C:\Windows\system32\SHLWAPI.dll
+0x000007fefdf90000 - 0x000007fefdfbe000 	C:\Windows\system32\IMM32.DLL
+0x000007fefef30000 - 0x000007feff039000 	C:\Windows\system32\MSCTF.dll
+0x00000000646d0000 - 0x00000000647a1000 	C:\Program Files\Java\jdk1.7.0_07\jre\bin\msvcr100.dll
+0x000000005a410000 - 0x000000005ab2f000 	C:\Program Files\Java\jdk1.7.0_07\jre\bin\server\jvm.dll
+0x000007fef8ad0000 - 0x000007fef8ad9000 	C:\Windows\system32\WSOCK32.dll
+0x000007feff040000 - 0x000007feff08d000 	C:\Windows\system32\WS2_32.dll
+0x000007fefd4e0000 - 0x000007fefd4e8000 	C:\Windows\system32\NSI.dll
+0x000007fefaad0000 - 0x000007fefab0b000 	C:\Windows\system32\WINMM.dll
+0x0000000076f70000 - 0x0000000076f77000 	C:\Windows\system32\PSAPI.DLL
+0x000000006d000000 - 0x000000006d00f000 	C:\Program Files\Java\jdk1.7.0_07\jre\bin\verify.dll
+0x000000006c580000 - 0x000000006c5a8000 	C:\Program Files\Java\jdk1.7.0_07\jre\bin\java.dll
+0x000000006ced0000 - 0x000000006cee5000 	C:\Program Files\Java\jdk1.7.0_07\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=UTF-8 -Xbootclasspath:E:\Computer_Language\Java\android-sdk\platforms\android-17\android.jar 
+java_command: com.example.vociebasedcotrol.utils.SocketClient
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.7.0_07
+CLASSPATH=D:\chrome_download\virtuoso_toolkit\drivers;G:\toolkit_virtuoso5.0\drivers;G:\virtuoso5.0\drivers;.;C:\Program Files\Java\jdk1.7.0_07/lib/dt.jar;C:\Program Files\Java\jdk1.7.0_07/lib/tools.jar;C:\Program Files (x86)\QuickTime\QTSystem\QTJava.zip
+PATH=E:\Computer_Language\Java\android-sdk\platform-tools;D:\firefox_download\mingw-w64-bin-x86_64-20111106\mingw64\bin;E:\Computer_Language\Java\opencv\build\x64\mingw\bin;C:\Windows\System32;C:\Program Files\Java\jdk1.7.0_07\bin;E:\Computer_Language\ctex\UserData\miktex\bin;E:\Computer_Language\ctex\MiKTeX\miktex\bin;E:\Computer_Language\ctex\CTeX\ctex\bin;E:\Computer_Language\ctex\CTeX\cct\bin;E:\Computer_Language\ctex\CTeX\ty\bin;E:\Computer_Language\ctex\Ghostscript\gs9.05\bin;E:\Computer_Language\ctex\GSview\gsview;E:\Computer_Language\ctex\WinEdt;G:\virtuoso-opensource\bin;G:\virtuoso-opensource\lib;C:\Program Files (x86)\QuickTime\QTSystem\;E:\Computer_Language\TortoiseSVN\bin;E:\Computer_Language\hack\netcat-win32-1.11\netcat-1.11;F:\android\dex2jar-0.0.9.12-a\dex2jar-0.0.9.12;E:\Computer_Language\Java\soft_android\apktool-install-windows-r05-ibot\apktool-install-windows-r05-ibot
+USERNAME=santiago
+LD_LIBRARY_PATH=E:\Computer_Language\Java\opencv\build\x64\mingw\bin
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 Service Pack 1
+
+CPU:total 4 (4 cores per cpu, 1 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, tsc, tscinvbit
+
+Memory: 4k page, physical 8344628k(3863092k free), swap 16687392k(10386172k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (23.3-b01) for windows-amd64 JRE (1.7.0_07-b11), built on Sep  7 2012 01:19:25 by "java_re" with unknown MS VC++:1600
+
+time: Fri Dec 06 19:24:20 2013
+elapsed time: 0 seconds
+
